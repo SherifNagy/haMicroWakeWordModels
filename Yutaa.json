@@ -3,7 +3,7 @@
   "wake_word": "Yuta",
   "author": "Sherif Nagy",
   "website": "https://github.com/SherifNagy/haMicroWakeWordModels",
-  "model": "yuta.tflite",
+  "model": "Yutaa.tflite",
   "trained_languages": [
     "en"
   ],
