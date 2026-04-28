@@ -180,7 +180,7 @@ binary_sensor:
       number: GPIO39
       inverted: true
     name: Button
-    disabled_by_default: false
+    disabled_by_default: true
     entity_category: diagnostic
     id: echo_button
     on_multi_click:
@@ -194,7 +194,7 @@ binary_sensor:
               then:
                 - switch.turn_off: timer_ringing
               else:
-                - script.execute: start_wake_word
+                - voice_assistant.start:
       - timing:
           - ON for at least 10s
         then:
